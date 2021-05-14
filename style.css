@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+html{
+    scroll-behavior: smooth;
+    background: url("img/trees-2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#bg-img{
+
+    border: 2px solid black;
+    padding: 25px;
+    background: url("img/trees-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.pay-container{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.structure{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0 0em 2em 0em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.struc-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 3em;  
+    padding: 0.4em 3em;  
+    background: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.PaymentButton-contents{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.home-btn{
+    margin-top: 2em;
+    text-decoration: none;
+    font-weight: 200;
+    border-radius: 0.5em;
+}
